@@ -1,12 +1,12 @@
 # English Version
-##Welcome to this Ecosystem Simulator
-####Programmed by JeasunLok,July 15th 2022,SUN YAT SEN UNIVERSITY
+## Welcome to this Ecosystem Simulator
+#### Programmed by JeasunLok,July 15th 2022,SUN YAT SEN UNIVERSITY
 #### Video：[Introdution of the program by Chinese](https://www.bilibili.com/video/BV1oS4y1J7sm?spm_id_from=333.999.0.0&vd_source=37637236b9378fa05cf47dbdc81be5df)
 ******
-###Wolf Sheep Predation
+### Wolf Sheep Predation
 In this system, there are three kinds of creatures: wolf, sheep and grass. The three live in the same square grid. They follow a certain way of life: they will die, eat, reproduce, etc. As operators, we can Set the initial number of wolves and sheep and the size of the grid, and set the number of iterations. This program will display the running result map of each iteration and the number of wolves, sheep and grass on the console and graphical interface to observe the ecosystem stability.
 ******
-###Highlights of this program compared to the basic requirements
+### Highlights of this program compared to the basic requirements
 ##### ·The STL control in the C++ library is used for the main coding of this program
 ##### ·Mainly use the vector container class to declare class objects, and make good use of tuple, utlity, algorithm, random.ctime libraries for coding
 ##### ·Add grass into the ecosystem, more simulation
@@ -48,7 +48,7 @@ This program uses MinGW 64bit to develop EGE graphical interface
 2. GUI interface
     * Ecosystem Map<b>（green is live grass,brown is dead grass,white is sheep,black is wolf）</b>
 ******
-###File Description
+### File Description
 1. client.cpp
     <b>Program main file, directly compile the file to run the program
      Enter the console according to the prompt to get the output result</b>
@@ -91,14 +91,14 @@ This program uses MinGW 64bit to develop EGE graphical interface
 * <b>The basic initial logic of this program is: the grass moves first, then the sheep moves, and finally the wolf moves again, that is, the grass first judges rebirth; the sheep then judges to eat grass, move, reproduce, and starve to death; the wolf finally judges to eat sheep, move, reproduce, starve</b>
 ******
 # 中文版
-##欢迎使用本生态系统模拟程序
-####Programmed by JeasunLok,July 15th 2022,SUN YAT SEN UNIVERSITY
+## 欢迎使用本生态系统模拟程序
+#### Programmed by JeasunLok,July 15th 2022,SUN YAT SEN UNIVERSITY
 #### 视频：[程序主体逻辑和代码介绍](https://www.bilibili.com/video/BV1oS4y1J7sm?spm_id_from=333.999.0.0&vd_source=37637236b9378fa05cf47dbdc81be5df)
 ******
-###狼羊草生态系统模拟
+### 狼羊草生态系统模拟
 在本系统中，存在狼、羊、草三种生物，三者在同一个方形网格中生存，他们遵从一定的生活方式：会死亡、会进食、会繁殖等等，作为操作者，我们可以设定初始的狼、羊数量以及网格的大小，并设置迭代次数，本程序将在控制台以及图形界面展示每一次迭代的运行结果地图以及狼、羊、草的数量，以观察该生态系统的稳定性。
 ******
-###本程序相较于基本要求的亮点
+### 本程序相较于基本要求的亮点
 ##### ·使用了C++库中STL控件进行本程序主要的编码
 ##### ·主要利用vector容器类进行类对象的声明，编码善用tuple,utlity,algorithm,random.ctime各个库
 ##### ·添加草类进入该生态系统，更加仿真化
@@ -140,7 +140,7 @@ This program uses MinGW 64bit to develop EGE graphical interface
 2. GUI界面
     * 生态系统地图<b>（绿色为活草，棕色为死草，白色为羊，黑色为狼）</b>
 ******
-###文件说明
+### 文件说明
 1. client.cpp
     <b>程序主文件，直接编译该文件运行本程序
     根据提示在控制台进行输入即可得到输出结果</b>
